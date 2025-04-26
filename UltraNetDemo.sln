@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UltraNetDemo", "UltraNetDemo\UltraNetDemo.csproj", "{7A533E14-3DC6-4A54-B399-4199230281D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UltraNet", "..\UltraNet\UltraNet\UltraNet.csproj", "{1B9D88F7-9AE7-498C-95C2-1E0B10DD4A65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A533E14-3DC6-4A54-B399-4199230281D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A533E14-3DC6-4A54-B399-4199230281D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A533E14-3DC6-4A54-B399-4199230281D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A533E14-3DC6-4A54-B399-4199230281D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B9D88F7-9AE7-498C-95C2-1E0B10DD4A65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B9D88F7-9AE7-498C-95C2-1E0B10DD4A65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B9D88F7-9AE7-498C-95C2-1E0B10DD4A65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B9D88F7-9AE7-498C-95C2-1E0B10DD4A65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73CD5AE6-D42B-4309-B50B-A23F76BC7CCB}
+	EndGlobalSection
+EndGlobal

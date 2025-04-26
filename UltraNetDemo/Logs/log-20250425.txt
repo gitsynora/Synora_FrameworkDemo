@@ -1,0 +1,172 @@
+2025-04-25 00:21:29.453 +03:30 [INF] User profile is available. Using 'C:\Users\helia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-25 00:21:29.643 +03:30 [INF] Now listening on: http://localhost:5238
+2025-04-25 00:21:29.647 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-25 00:21:29.648 +03:30 [INF] Hosting environment: Development
+2025-04-25 00:21:29.649 +03:30 [INF] Content root path: E:\UpworkDemo\SmartMarket.API\UltraNetDemo\UltraNetDemo
+2025-04-25 00:21:31.323 +03:30 [INF] Request starting HTTP/1.1 GET http://localhost:5238/swagger - null null
+2025-04-25 00:21:33.342 +03:30 [INF] Request finished HTTP/1.1 GET http://localhost:5238/swagger - 301 0 null 2026.9362ms
+2025-04-25 00:21:33.570 +03:30 [INF] Request starting HTTP/1.1 GET http://localhost:5238/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-25 00:21:33.573 +03:30 [INF] Request starting HTTP/1.1 GET http://localhost:5238/_vs/browserLink - null null
+2025-04-25 00:21:33.577 +03:30 [INF] Request finished HTTP/1.1 GET http://localhost:5238/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 7.1947ms
+2025-04-25 00:21:33.617 +03:30 [INF] Request finished HTTP/1.1 GET http://localhost:5238/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.9319ms
+2025-04-25 00:21:34.005 +03:30 [INF] Request starting HTTP/1.1 GET http://localhost:5238/swagger/v1/swagger.json - null null
+2025-04-25 00:21:34.091 +03:30 [INF] Request finished HTTP/1.1 GET http://localhost:5238/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 86.6301ms
+2025-04-25 00:21:34.212 +03:30 [INF] Request starting HTTP/1.1 GET http://localhost:5238/swagger/favicon-16x16.png - null null
+2025-04-25 00:21:34.237 +03:30 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2025-04-25 00:21:34.239 +03:30 [INF] Request finished HTTP/1.1 GET http://localhost:5238/swagger/favicon-16x16.png - 499 665 image/png 27.487ms
+2025-04-25 00:21:43.586 +03:30 [INF] Request starting HTTP/1.1 POST http://localhost:5238/api/Auth/register - application/json 42
+2025-04-25 00:21:43.595 +03:30 [INF] Executing endpoint 'UltraNetDemo.Controllers.AuthController.Register (UltraNetDemo)'
+2025-04-25 00:21:43.615 +03:30 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(UltraNetDemo.Models.RegisterRequest) on controller UltraNetDemo.Controllers.AuthController (UltraNetDemo).
+2025-04-25 00:21:43.733 +03:30 [INF] Executing action method UltraNetDemo.Controllers.AuthController.Register (UltraNetDemo) - Validation state: "Valid"
+2025-04-25 00:21:43.744 +03:30 [INF] Executed action method UltraNetDemo.Controllers.AuthController.Register (UltraNetDemo), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 6.0242ms.
+2025-04-25 00:21:43.749 +03:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-04-25 00:21:43.756 +03:30 [INF] Executed action UltraNetDemo.Controllers.AuthController.Register (UltraNetDemo) in 134.9474ms
+2025-04-25 00:21:43.758 +03:30 [INF] Executed endpoint 'UltraNetDemo.Controllers.AuthController.Register (UltraNetDemo)'
+2025-04-25 00:21:43.758 +03:30 [INF] Request finished HTTP/1.1 POST http://localhost:5238/api/Auth/register - 200 null text/plain; charset=utf-8 172.4659ms
+2025-04-25 00:21:55.277 +03:30 [INF] Request starting HTTP/1.1 POST http://localhost:5238/api/Auth/login - application/json 42
+2025-04-25 00:21:55.282 +03:30 [INF] Executing endpoint 'UltraNetDemo.Controllers.AuthController.Login (UltraNetDemo)'
+2025-04-25 00:21:55.287 +03:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(UltraNetDemo.Models.LoginRequest) on controller UltraNetDemo.Controllers.AuthController (UltraNetDemo).
+2025-04-25 00:21:55.318 +03:30 [INF] Executing action method UltraNetDemo.Controllers.AuthController.Login (UltraNetDemo) - Validation state: "Valid"
+2025-04-25 00:21:55.320 +03:30 [INF] Executed action method UltraNetDemo.Controllers.AuthController.Login (UltraNetDemo), returned result Microsoft.AspNetCore.Mvc.UnauthorizedObjectResult in 0.5935ms.
+2025-04-25 00:21:55.322 +03:30 [INF] Executing UnauthorizedObjectResult, writing value of type 'System.String'.
+2025-04-25 00:21:55.324 +03:30 [INF] Executed action UltraNetDemo.Controllers.AuthController.Login (UltraNetDemo) in 33.5899ms
+2025-04-25 00:21:55.325 +03:30 [INF] Executed endpoint 'UltraNetDemo.Controllers.AuthController.Login (UltraNetDemo)'
+2025-04-25 00:21:55.326 +03:30 [INF] Request finished HTTP/1.1 POST http://localhost:5238/api/Auth/login - 401 null text/plain; charset=utf-8 48.2533ms
+2025-04-25 00:22:00.161 +03:30 [INF] Request starting HTTP/1.1 POST http://localhost:5238/api/Auth/login - application/json 42
+2025-04-25 00:22:00.165 +03:30 [INF] Executing endpoint 'UltraNetDemo.Controllers.AuthController.Login (UltraNetDemo)'
+2025-04-25 00:22:00.167 +03:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(UltraNetDemo.Models.LoginRequest) on controller UltraNetDemo.Controllers.AuthController (UltraNetDemo).
+2025-04-25 00:22:00.192 +03:30 [INF] Executing action method UltraNetDemo.Controllers.AuthController.Login (UltraNetDemo) - Validation state: "Valid"
+2025-04-25 00:22:00.194 +03:30 [INF] Executed action method UltraNetDemo.Controllers.AuthController.Login (UltraNetDemo), returned result Microsoft.AspNetCore.Mvc.UnauthorizedObjectResult in 0.3464ms.
+2025-04-25 00:22:00.196 +03:30 [INF] Executing UnauthorizedObjectResult, writing value of type 'System.String'.
+2025-04-25 00:22:00.197 +03:30 [INF] Executed action UltraNetDemo.Controllers.AuthController.Login (UltraNetDemo) in 28.0175ms
+2025-04-25 00:22:00.198 +03:30 [INF] Executed endpoint 'UltraNetDemo.Controllers.AuthController.Login (UltraNetDemo)'
+2025-04-25 00:22:00.199 +03:30 [INF] Request finished HTTP/1.1 POST http://localhost:5238/api/Auth/login - 401 null text/plain; charset=utf-8 38.1325ms
+2025-04-25 00:22:15.091 +03:30 [INF] Request starting HTTP/1.1 POST http://localhost:5238/api/Auth/register - application/json 42
+2025-04-25 00:22:15.094 +03:30 [INF] Executing endpoint 'UltraNetDemo.Controllers.AuthController.Register (UltraNetDemo)'
+2025-04-25 00:22:15.095 +03:30 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(UltraNetDemo.Models.RegisterRequest) on controller UltraNetDemo.Controllers.AuthController (UltraNetDemo).
+2025-04-25 00:22:15.115 +03:30 [INF] Executing action method UltraNetDemo.Controllers.AuthController.Register (UltraNetDemo) - Validation state: "Valid"
+2025-04-25 00:22:15.116 +03:30 [INF] Executed action method UltraNetDemo.Controllers.AuthController.Register (UltraNetDemo), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 0.0776ms.
+2025-04-25 00:22:15.117 +03:30 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2025-04-25 00:22:15.118 +03:30 [INF] Executed action UltraNetDemo.Controllers.AuthController.Register (UltraNetDemo) in 21.2386ms
+2025-04-25 00:22:15.120 +03:30 [INF] Executed endpoint 'UltraNetDemo.Controllers.AuthController.Register (UltraNetDemo)'
+2025-04-25 00:22:15.122 +03:30 [INF] Request finished HTTP/1.1 POST http://localhost:5238/api/Auth/register - 400 null text/plain; charset=utf-8 31.6381ms
+2025-04-25 00:22:29.732 +03:30 [INF] Request starting HTTP/1.1 POST http://localhost:5238/api/Auth/register - application/json 43
+2025-04-25 00:22:29.737 +03:30 [INF] Executing endpoint 'UltraNetDemo.Controllers.AuthController.Register (UltraNetDemo)'
+2025-04-25 00:22:29.737 +03:30 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(UltraNetDemo.Models.RegisterRequest) on controller UltraNetDemo.Controllers.AuthController (UltraNetDemo).
+2025-04-25 00:22:29.755 +03:30 [INF] Executing action method UltraNetDemo.Controllers.AuthController.Register (UltraNetDemo) - Validation state: "Valid"
+2025-04-25 00:22:29.757 +03:30 [INF] Executed action method UltraNetDemo.Controllers.AuthController.Register (UltraNetDemo), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.207ms.
+2025-04-25 00:22:29.758 +03:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-04-25 00:22:29.759 +03:30 [INF] Executed action UltraNetDemo.Controllers.AuthController.Register (UltraNetDemo) in 20.4205ms
+2025-04-25 00:22:29.761 +03:30 [INF] Executed endpoint 'UltraNetDemo.Controllers.AuthController.Register (UltraNetDemo)'
+2025-04-25 00:22:29.762 +03:30 [INF] Request finished HTTP/1.1 POST http://localhost:5238/api/Auth/register - 200 null text/plain; charset=utf-8 29.5614ms
+2025-04-25 00:22:43.024 +03:30 [INF] Request starting HTTP/1.1 POST http://localhost:5238/api/Auth/login - application/json 43
+2025-04-25 00:22:43.028 +03:30 [INF] Executing endpoint 'UltraNetDemo.Controllers.AuthController.Login (UltraNetDemo)'
+2025-04-25 00:22:43.029 +03:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(UltraNetDemo.Models.LoginRequest) on controller UltraNetDemo.Controllers.AuthController (UltraNetDemo).
+2025-04-25 00:22:43.055 +03:30 [INF] Executing action method UltraNetDemo.Controllers.AuthController.Login (UltraNetDemo) - Validation state: "Valid"
+2025-04-25 00:22:43.057 +03:30 [INF] Executed action method UltraNetDemo.Controllers.AuthController.Login (UltraNetDemo), returned result Microsoft.AspNetCore.Mvc.UnauthorizedObjectResult in 0.1093ms.
+2025-04-25 00:22:43.059 +03:30 [INF] Executing UnauthorizedObjectResult, writing value of type 'System.String'.
+2025-04-25 00:22:43.061 +03:30 [INF] Executed action UltraNetDemo.Controllers.AuthController.Login (UltraNetDemo) in 29.0852ms
+2025-04-25 00:22:43.063 +03:30 [INF] Executed endpoint 'UltraNetDemo.Controllers.AuthController.Login (UltraNetDemo)'
+2025-04-25 00:22:43.063 +03:30 [INF] Request finished HTTP/1.1 POST http://localhost:5238/api/Auth/login - 401 null text/plain; charset=utf-8 39.3235ms
+2025-04-25 00:23:01.383 +03:30 [INF] Request starting HTTP/1.1 POST http://localhost:5238/api/Auth/register - application/json 42
+2025-04-25 00:23:01.388 +03:30 [INF] Executing endpoint 'UltraNetDemo.Controllers.AuthController.Register (UltraNetDemo)'
+2025-04-25 00:23:01.390 +03:30 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(UltraNetDemo.Models.RegisterRequest) on controller UltraNetDemo.Controllers.AuthController (UltraNetDemo).
+2025-04-25 00:23:01.407 +03:30 [INF] Executing action method UltraNetDemo.Controllers.AuthController.Register (UltraNetDemo) - Validation state: "Valid"
+2025-04-25 00:23:01.409 +03:30 [INF] Executed action method UltraNetDemo.Controllers.AuthController.Register (UltraNetDemo), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.0717ms.
+2025-04-25 00:23:01.410 +03:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-04-25 00:23:01.411 +03:30 [INF] Executed action UltraNetDemo.Controllers.AuthController.Register (UltraNetDemo) in 18.6115ms
+2025-04-25 00:23:01.413 +03:30 [INF] Executed endpoint 'UltraNetDemo.Controllers.AuthController.Register (UltraNetDemo)'
+2025-04-25 00:23:01.414 +03:30 [INF] Request finished HTTP/1.1 POST http://localhost:5238/api/Auth/register - 200 null text/plain; charset=utf-8 30.6934ms
+2025-04-25 00:23:10.187 +03:30 [INF] Request starting HTTP/1.1 POST http://localhost:5238/api/Auth/login - application/json 42
+2025-04-25 00:23:10.191 +03:30 [INF] Executing endpoint 'UltraNetDemo.Controllers.AuthController.Login (UltraNetDemo)'
+2025-04-25 00:23:10.192 +03:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(UltraNetDemo.Models.LoginRequest) on controller UltraNetDemo.Controllers.AuthController (UltraNetDemo).
+2025-04-25 00:23:10.206 +03:30 [INF] Executing action method UltraNetDemo.Controllers.AuthController.Login (UltraNetDemo) - Validation state: "Valid"
+2025-04-25 00:23:10.207 +03:30 [INF] Executed action method UltraNetDemo.Controllers.AuthController.Login (UltraNetDemo), returned result Microsoft.AspNetCore.Mvc.UnauthorizedObjectResult in 0.0513ms.
+2025-04-25 00:23:10.208 +03:30 [INF] Executing UnauthorizedObjectResult, writing value of type 'System.String'.
+2025-04-25 00:23:10.210 +03:30 [INF] Executed action UltraNetDemo.Controllers.AuthController.Login (UltraNetDemo) in 16.6017ms
+2025-04-25 00:23:10.212 +03:30 [INF] Executed endpoint 'UltraNetDemo.Controllers.AuthController.Login (UltraNetDemo)'
+2025-04-25 00:23:10.213 +03:30 [INF] Request finished HTTP/1.1 POST http://localhost:5238/api/Auth/login - 401 null text/plain; charset=utf-8 25.7229ms
+2025-04-25 00:23:27.038 +03:30 [INF] Request starting HTTP/1.1 POST http://localhost:5238/api/Auth/login - application/json 42
+2025-04-25 00:23:27.040 +03:30 [INF] Executing endpoint 'UltraNetDemo.Controllers.AuthController.Login (UltraNetDemo)'
+2025-04-25 00:23:27.041 +03:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(UltraNetDemo.Models.LoginRequest) on controller UltraNetDemo.Controllers.AuthController (UltraNetDemo).
+2025-04-25 00:23:27.051 +03:30 [INF] Executing action method UltraNetDemo.Controllers.AuthController.Login (UltraNetDemo) - Validation state: "Valid"
+2025-04-25 00:25:08.384 +03:30 [INF] Executed action method UltraNetDemo.Controllers.AuthController.Login (UltraNetDemo), returned result Microsoft.AspNetCore.Mvc.UnauthorizedObjectResult in 101332.0677ms.
+2025-04-25 00:25:08.386 +03:30 [INF] Executing UnauthorizedObjectResult, writing value of type 'System.String'.
+2025-04-25 00:25:08.387 +03:30 [INF] Executed action UltraNetDemo.Controllers.AuthController.Login (UltraNetDemo) in 101345.3105ms
+2025-04-25 00:25:08.400 +03:30 [INF] Executed endpoint 'UltraNetDemo.Controllers.AuthController.Login (UltraNetDemo)'
+2025-04-25 00:25:08.401 +03:30 [INF] Request finished HTTP/1.1 POST http://localhost:5238/api/Auth/login - 401 null text/plain; charset=utf-8 101363.4539ms
+2025-04-25 00:25:32.972 +03:30 [INF] Request starting HTTP/1.1 POST http://localhost:5238/api/Auth/register - application/json 46
+2025-04-25 00:25:32.982 +03:30 [INF] Executing endpoint 'UltraNetDemo.Controllers.AuthController.Register (UltraNetDemo)'
+2025-04-25 00:25:32.983 +03:30 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(UltraNetDemo.Models.RegisterRequest) on controller UltraNetDemo.Controllers.AuthController (UltraNetDemo).
+2025-04-25 00:25:32.999 +03:30 [INF] Executing action method UltraNetDemo.Controllers.AuthController.Register (UltraNetDemo) - Validation state: "Valid"
+2025-04-25 00:27:30.042 +03:30 [INF] User profile is available. Using 'C:\Users\helia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-25 00:27:30.363 +03:30 [INF] Now listening on: http://localhost:5238
+2025-04-25 00:27:30.365 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-25 00:27:30.366 +03:30 [INF] Hosting environment: Development
+2025-04-25 00:27:30.367 +03:30 [INF] Content root path: E:\UpworkDemo\SmartMarket.API\UltraNetDemo\UltraNetDemo
+2025-04-25 00:27:31.536 +03:30 [INF] Request starting HTTP/1.1 GET http://localhost:5238/swagger - null null
+2025-04-25 00:27:33.569 +03:30 [INF] Request finished HTTP/1.1 GET http://localhost:5238/swagger - 301 0 null 2037.3832ms
+2025-04-25 00:27:33.807 +03:30 [INF] Request starting HTTP/1.1 GET http://localhost:5238/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-25 00:27:33.809 +03:30 [INF] Request starting HTTP/1.1 GET http://localhost:5238/_vs/browserLink - null null
+2025-04-25 00:27:33.815 +03:30 [INF] Request finished HTTP/1.1 GET http://localhost:5238/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 8.4526ms
+2025-04-25 00:27:33.848 +03:30 [INF] Request finished HTTP/1.1 GET http://localhost:5238/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.7576ms
+2025-04-25 00:27:34.154 +03:30 [INF] Request starting HTTP/1.1 GET http://localhost:5238/swagger/v1/swagger.json - null null
+2025-04-25 00:27:34.233 +03:30 [INF] Request finished HTTP/1.1 GET http://localhost:5238/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 79.0666ms
+2025-04-25 00:27:34.475 +03:30 [INF] Request starting HTTP/1.1 GET http://localhost:5238/swagger/favicon-16x16.png - null null
+2025-04-25 00:27:34.491 +03:30 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2025-04-25 00:27:34.492 +03:30 [INF] Request finished HTTP/1.1 GET http://localhost:5238/swagger/favicon-16x16.png - 499 665 image/png 17.8724ms
+2025-04-25 00:27:43.967 +03:30 [INF] Request starting HTTP/1.1 POST http://localhost:5238/api/Auth/register - application/json 46
+2025-04-25 00:27:43.977 +03:30 [INF] Executing endpoint 'UltraNetDemo.Controllers.AuthController.Register (UltraNetDemo)'
+2025-04-25 00:27:44.001 +03:30 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(UltraNetDemo.Models.RegisterRequest) on controller UltraNetDemo.Controllers.AuthController (UltraNetDemo).
+2025-04-25 00:27:44.129 +03:30 [INF] Executing action method UltraNetDemo.Controllers.AuthController.Register (UltraNetDemo) - Validation state: "Valid"
+2025-04-25 00:28:02.385 +03:30 [INF] Executed action method UltraNetDemo.Controllers.AuthController.Register (UltraNetDemo), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 18252.6031ms.
+2025-04-25 00:28:02.390 +03:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-04-25 00:28:02.393 +03:30 [INF] Executed action UltraNetDemo.Controllers.AuthController.Register (UltraNetDemo) in 18387.395ms
+2025-04-25 00:28:02.394 +03:30 [INF] Executed endpoint 'UltraNetDemo.Controllers.AuthController.Register (UltraNetDemo)'
+2025-04-25 00:28:02.396 +03:30 [INF] Request finished HTTP/1.1 POST http://localhost:5238/api/Auth/register - 200 null text/plain; charset=utf-8 18428.4284ms
+2025-04-25 00:28:15.936 +03:30 [INF] Request starting HTTP/1.1 POST http://localhost:5238/api/Auth/login - application/json 46
+2025-04-25 00:28:15.940 +03:30 [INF] Executing endpoint 'UltraNetDemo.Controllers.AuthController.Login (UltraNetDemo)'
+2025-04-25 00:28:15.943 +03:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(UltraNetDemo.Models.LoginRequest) on controller UltraNetDemo.Controllers.AuthController (UltraNetDemo).
+2025-04-25 00:28:15.965 +03:30 [INF] Executing action method UltraNetDemo.Controllers.AuthController.Login (UltraNetDemo) - Validation state: "Valid"
+2025-04-25 00:29:07.215 +03:30 [INF] Executed action method UltraNetDemo.Controllers.AuthController.Login (UltraNetDemo), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 51248.1653ms.
+2025-04-25 00:29:07.218 +03:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-25 00:29:07.253 +03:30 [INF] Executed action UltraNetDemo.Controllers.AuthController.Login (UltraNetDemo) in 51307.564ms
+2025-04-25 00:29:07.254 +03:30 [INF] Executed endpoint 'UltraNetDemo.Controllers.AuthController.Login (UltraNetDemo)'
+2025-04-25 00:29:07.255 +03:30 [INF] Request finished HTTP/1.1 POST http://localhost:5238/api/Auth/login - 200 null application/json; charset=utf-8 51319.7122ms
+2025-04-25 00:42:17.745 +03:30 [INF] User profile is available. Using 'C:\Users\helia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-25 00:42:17.932 +03:30 [INF] Now listening on: http://localhost:5238
+2025-04-25 00:42:17.936 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-25 00:42:17.938 +03:30 [INF] Hosting environment: Development
+2025-04-25 00:42:17.939 +03:30 [INF] Content root path: E:\UpworkDemo\UltraNetDemo\UltraNetDemo
+2025-04-25 00:42:19.795 +03:30 [INF] Request starting HTTP/1.1 GET http://localhost:5238/swagger - null null
+2025-04-25 00:42:20.027 +03:30 [INF] Request finished HTTP/1.1 GET http://localhost:5238/swagger - 301 0 null 239.4236ms
+2025-04-25 00:42:20.893 +03:30 [INF] Request starting HTTP/1.1 GET http://localhost:5238/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-25 00:42:20.897 +03:30 [INF] Request starting HTTP/1.1 GET http://localhost:5238/_vs/browserLink - null null
+2025-04-25 00:42:20.898 +03:30 [INF] Request finished HTTP/1.1 GET http://localhost:5238/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 5.7733ms
+2025-04-25 00:42:20.938 +03:30 [INF] Request finished HTTP/1.1 GET http://localhost:5238/_vs/browserLink - 200 null text/javascript; charset=UTF-8 41.0559ms
+2025-04-25 00:42:21.024 +03:30 [INF] Request starting HTTP/1.1 GET http://localhost:5238/swagger/v1/swagger.json - null null
+2025-04-25 00:42:21.100 +03:30 [INF] Request finished HTTP/1.1 GET http://localhost:5238/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 75.7697ms
+2025-04-25 00:42:21.216 +03:30 [INF] Request starting HTTP/1.1 GET http://localhost:5238/swagger/favicon-16x16.png - null null
+2025-04-25 00:42:21.230 +03:30 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2025-04-25 00:42:21.232 +03:30 [INF] Request finished HTTP/1.1 GET http://localhost:5238/swagger/favicon-16x16.png - 499 665 image/png 15.2698ms
+2025-04-25 00:43:11.101 +03:30 [INF] User profile is available. Using 'C:\Users\helia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-25 00:43:11.246 +03:30 [INF] Now listening on: http://localhost:5238
+2025-04-25 00:43:11.249 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-25 00:43:11.250 +03:30 [INF] Hosting environment: Development
+2025-04-25 00:43:11.252 +03:30 [INF] Content root path: C:\Users\helia\Desktop\Git\UpworkDemo\UltraNetDemo\UltraNetDemo
+2025-04-25 00:43:13.028 +03:30 [INF] Request starting HTTP/1.1 GET http://localhost:5238/swagger - null null
+2025-04-25 00:43:13.380 +03:30 [INF] Request finished HTTP/1.1 GET http://localhost:5238/swagger - 301 0 null 360.2203ms
+2025-04-25 00:43:14.007 +03:30 [INF] Request starting HTTP/1.1 GET http://localhost:5238/swagger/index.html - null null
+2025-04-25 00:43:14.099 +03:30 [INF] Request starting HTTP/1.1 GET http://localhost:5238/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-25 00:43:14.099 +03:30 [INF] Request starting HTTP/1.1 GET http://localhost:5238/swagger/swagger-ui.css - null null
+2025-04-25 00:43:14.110 +03:30 [INF] Request starting HTTP/1.1 GET http://localhost:5238/_vs/browserLink - null null
+2025-04-25 00:43:14.139 +03:30 [INF] Request finished HTTP/1.1 GET http://localhost:5238/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 39.6393ms
+2025-04-25 00:43:14.158 +03:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-04-25 00:43:14.160 +03:30 [INF] Request finished HTTP/1.1 GET http://localhost:5238/swagger/swagger-ui.css - 499 154949 text/css 61.1288ms
+2025-04-25 00:43:14.177 +03:30 [INF] Request finished HTTP/1.1 GET http://localhost:5238/_vs/browserLink - 200 null text/javascript; charset=UTF-8 68.8643ms
+2025-04-25 00:43:14.195 +03:30 [INF] Request starting HTTP/1.1 GET http://localhost:5238/swagger/favicon-16x16.png - null null
+2025-04-25 00:43:14.199 +03:30 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2025-04-25 00:43:14.200 +03:30 [INF] Request finished HTTP/1.1 GET http://localhost:5238/swagger/favicon-16x16.png - 499 665 image/png 5.4384ms
+2025-04-25 00:43:14.201 +03:30 [INF] Request finished HTTP/1.1 GET http://localhost:5238/swagger/index.html - 200 null text/html;charset=utf-8 195.2469ms
+2025-04-25 00:43:14.313 +03:30 [INF] Request starting HTTP/1.1 GET http://localhost:5238/swagger/v1/swagger.json - null null
+2025-04-25 00:43:14.455 +03:30 [INF] Request finished HTTP/1.1 GET http://localhost:5238/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 142.2164ms
